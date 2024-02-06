@@ -9,24 +9,33 @@
 .container__small-card-content{
   display: flex;
   flex-direction: row;
-  padding: 20px;
+  padding: 10 20px;
   box-sizing: border-box;
 }
 
 .small-card__photo > img {
-  width: 200px;
-  min-width: 200px;
+  height: 100px;
+  width: 170px;
+  min-width: 170px;
   margin-right: 20px;
+  margin: 10px;
+  border-radius: 7px;
+}
+
+span {
+  color: grey;
+  font-size: 10px;
+  margin-top: 10px;
 }
 
 .small-card__title {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
 }
 
 .small-card__title > h1 {
   font-size: 16px;
+  margin-top: 10px;
 }
 
 .container__small-card__separator{
