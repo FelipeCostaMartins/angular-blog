@@ -6,7 +6,7 @@
 img {
   width: 1%;
   height: 1%;
-  margin-left: 20px;
+  margin-left: 8px;
   min-width: 50px;
   min-height: 50px;
 }
@@ -16,7 +16,7 @@ img {
 }
 
 .container__menu-bar > ul > li{
-  margin: 20px 40px 0px 40px;
+  margin: 15px 0px 0px 45px;
   list-style: none;
 }
 
