@@ -1,0 +1,7 @@
+.container__small-card{
+
+  @media(min-width: 1145px) {
+    width: 700px;
+  }
+
+}

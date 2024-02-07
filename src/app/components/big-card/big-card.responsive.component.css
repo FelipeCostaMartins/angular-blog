@@ -1,0 +1,14 @@
+.container__big-card{
+
+  @media(min-width: 700px) {
+    width: 400px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  img {
+    width: 100%;
+    max-width: 330px;
+  }
+}
