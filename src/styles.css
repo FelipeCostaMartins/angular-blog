@@ -9,8 +9,14 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+
 a{
   text-decoration: none;
 }
 
 hr {color: grey;}
+
+::selection {
+  background-color: rgb(151, 66, 255); /* Define a cor de fundo da seleção */
+  color: white;
+}
